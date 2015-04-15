@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Common">
@@ -8,7 +8,7 @@
       <UniqueIdentifier>0ad02a4d-3d30-4651-8ada-8b8582c35b3e</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
-	<Filter Include="Content">
+    <Filter Include="Content">
       <UniqueIdentifier>dc2601c7-1847-4e8f-a5b4-a45ed5db025f</UniqueIdentifier>
     </Filter>
     <Image Include="Assets\Logo.png">
@@ -23,5 +23,21 @@
     <Image Include="Assets\SplashScreen.png">
       <Filter>Assets</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="event_manager.Windows_TemporaryKey.pfx" />
+    <None Include="gimp_xcf.bin" />
+    <None Include="Assets\SplashScreen.xcf">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="event_manager.Windows.rc" />
   </ItemGroup>
 </Project>

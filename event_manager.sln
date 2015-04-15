@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event_manager.Windows", "ev
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event_manager.WindowsPhone", "event_manager\event_manager.WindowsPhone\event_manager.WindowsPhone.vcxproj", "{D22AABF4-7B98-47EC-BB12-95C885806AE0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input_handler", "Input_handler", "{76020823-C94F-46A1-9F44-42D0043710AE}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		event_manager\event_manager.Shared\event_manager.Shared.vcxitems*{80f39100-3644-4819-ae78-3e1e5d66a837}*SharedItemsImports = 4
@@ -66,5 +68,6 @@ Global
 		{3A08E880-220E-4BAB-A1E4-0598005B4542} = {3ADD7530-787D-4406-B53F-8B8529549247}
 		{80F39100-3644-4819-AE78-3E1E5D66A837} = {3ADD7530-787D-4406-B53F-8B8529549247}
 		{D22AABF4-7B98-47EC-BB12-95C885806AE0} = {3ADD7530-787D-4406-B53F-8B8529549247}
+		{76020823-C94F-46A1-9F44-42D0043710AE} = {3ADD7530-787D-4406-B53F-8B8529549247}
 	EndGlobalSection
 EndGlobal
